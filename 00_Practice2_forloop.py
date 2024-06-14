@@ -49,3 +49,28 @@
 #     print()
 
 
+# num_of_rows = int(input("Enter Number of Rows: "))
+# num_of_columns = int(input("Enter Number of Columns: "))
+# for i in range(num_of_rows):
+#     for j in range(num_of_rows - i - 1):
+#         print(" ",end="")
+#     for j in range(i*2+1):
+#         print("*",end="")
+#     if j == num_of_columns:
+#         print()
+#         break
+#     print()
+
+
+
+# num_of_rows = int(input("Enter Number of Rows: "))
+# num_of_columns = int(input("Enter Number of Columns: "))
+# for i in range(num_of_rows):
+#     for j in range(num_of_rows - i - 1):
+#         print(" ",end="")
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     if j == num_of_columns:
+#         print()
+#         break
+#     print()

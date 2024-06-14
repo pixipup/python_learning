@@ -102,3 +102,73 @@
 # print(even_list)
 
 
+
+
+# def display_menu():
+#   """Prints the menu options."""
+#   print("\nMenu:")
+#   print("1. View Message")
+#   print("2. Play a Game")
+#   print("3. Exit")
+
+# def main():
+#   """Runs the main menu loop."""
+#   choice = "0"
+#   while choice != "3":
+#     display_menu()
+#     choice = input("Enter your choice (1-3): ")
+
+#     if choice == "1":
+#       print("This is a secret message!")
+#     elif choice == "2":
+#       print("Let's play a simple guessing game!")
+#       import random
+#       secret_number = random.randint(1,100)          # Generate a random number for user to guess
+#       max_guess = 10          # Enter the maximum number of guess
+#       num_of_guess = 0        # Initialize current guess number
+
+#       print("I'm thinking of a number between 1 and 100. You have", max_guess, "guesses to find it.")
+
+#       while num_of_guess < max_guess:
+#         # Get the user's guess
+#         try:
+#             guess = int(input("Take a guess: "))
+#         except ValueError:
+#             print("Invalid input. Please enter a whole number between 1 and 100.")
+#             continue
+
+#         # Check if the guess is within the valid range
+#         if guess < 1 or guess > 100:
+#             print("Your guess is out of range. Please enter a number between 1 and 100.")
+#             continue
+        
+#         num_of_guess += 1
+
+#         # Provide hints based on the guess
+#         if guess == secret_number:
+#             print("Congratulations! You guessed the number in", num_of_guess, "guesses.")
+#             break
+#         elif guess > secret_number:
+#             print("Your guess is too high. Try again.")
+#         else:
+#             print("Your guess is too low. Try again.")
+
+#         #   Handle the case where the user runs out of guesses
+#         if num_of_guess == max_guess:
+#             print("Sorry, you ran out of guesses. The number was", secret_number)
+    
+#     elif choice == "3":
+#       print("Exiting...")
+#     else:
+#       print("Invalid choice. Please try again.")
+
+# if __name__ == "__main__":
+#   main()
+
+
+
+(a,b,c,d) = (1,2,3,4)
+print(a)
+print(b)
+print(c)
+print(d)
