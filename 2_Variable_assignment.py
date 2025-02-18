@@ -1,4 +1,4 @@
-#A variable is a reserved memory location assigned (represented as a reference or pointer, e.g. 'used_books')
+#A variable is a reserved memory location assigned (represented as a reference or pointer, e.g. 'used_books') to a value, equation etc.
 
 number_of_dogs_owned = 2
 

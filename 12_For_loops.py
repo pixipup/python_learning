@@ -1,4 +1,5 @@
 # Many objects in python are "iterable", meaning we can iterate over every element in the object or every character in a string.
+# The for loop in Python is used to iterate over a sequence (like a list, tuple, or string) or other iterable objects.
 
 mylist = [0,1,2,3,4,5,6,7,8,9,10]
 

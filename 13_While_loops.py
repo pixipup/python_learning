@@ -18,7 +18,7 @@ x = 0               #initiate a variable
 while x < 5:
     x += 1          #increment
     if x == 3:      #condition
-        x += 1      #increment and continue
+        # x += 1      #increment and continue
         continue
     print(f'The current value of x is {x}')
     

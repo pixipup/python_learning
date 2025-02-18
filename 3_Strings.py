@@ -18,7 +18,7 @@
 
 MyString = "Welcome"
 print(MyString[3])
-print(MyString[-4:])
+print(MyString[-4::-1])
 lengthofmystring = print(len(MyString))
 
 # If your string contains a single quote or double quote in itself, then use the opposite quote outside to make it a string.
@@ -29,6 +29,7 @@ lengthofmystring = print(len(MyString))
 # "Hey, it's me. \n Call me back."
 
 print("Hey, it's me. \nCall me back.")
+print("Hey, it's me. \tCall me back.")
 
 # Strings are immutable
 # e.g. name = Sam
@@ -59,4 +60,10 @@ print(x)
 
 distance = '35km'
 print(f"My house is {distance} away.")
+
+# 
+name="Paul"
+age="24"
+x = f"hello {name}, I am turning {age} year old today."
+print(x)
 
