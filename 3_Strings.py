@@ -18,7 +18,8 @@
 
 MyString = "Welcome"
 print(MyString[3])
-print(MyString[-4::-1])
+print(MyString[::-1]) # Reverse string
+print(MyString[-4:])
 lengthofmystring = print(len(MyString))
 
 # If your string contains a single quote or double quote in itself, then use the opposite quote outside to make it a string.

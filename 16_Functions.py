@@ -11,6 +11,13 @@ def numbers():
         print(x)
 numbers()
 
+
+# Same Function with an argument/variable
+def numbers(a,b,c):
+    for x in range(a,b,c):
+        print(x)
+numbers(0,10+1,2)
+
 # Function with an argument/variable
 def greetings(name="Default"):          # a default argument can be assigned in case the function called without a variable.
     print(f"Hello, How are you {name}?")
@@ -36,12 +43,11 @@ def even_check(number):
         return False
 
 
-# number = int(input("Enter any integer: "))
-# if even_check(number) is True:
-#     print(f"{number} is even")
-# elif even_check(number) is False:
-#     print(f"{number} is odd")
-
+number = int(input("Enter any integer: "))
+if even_check(number) is True:
+    print(f"{number} is even")
+elif even_check(number) is False:
+    print(f"{number} is odd")
 
 
 def check_even_list(num_list):
@@ -52,8 +58,11 @@ def check_even_list(num_list):
             pass        # the pass statement will do nothing if the condition is false. If we use "return False" also within the for loop, it will only check the first element in the list, as the return function will end the function call after 1st element.
     return False
 
-# my_even_list = check_even_list([2,4,9])
-# print(my_even_list)
+my_even_list = check_even_list([1,3,9])
+print(my_even_list)
+
+my_even_list = check_even_list([2,4,9])
+print(my_even_list)
 
 
 def return_even_list(num_list):
@@ -89,6 +98,7 @@ def age_sort(age_group):
 
 result = age_sort(age_group)
 print(result)
+
 
 
 

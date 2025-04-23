@@ -30,7 +30,18 @@ celcius = [0,10.7,17.2,55.3]
 fahrenheit = [((9/5)*temp+32) for temp in celcius]
 print(fahrenheit)
 
-# Example
+# Example - with LC
 
 mylist = [x*y for x in [1,10,100] for y in [1,2,3]]
+print(mylist)
+
+# Without LC
+mystring = [1, 10, 100]
+anothermystring = [1, 2, 3]
+mylist = []
+
+for x in mystring:
+    for y in anothermystring:
+        mylist.append(x * y)
+
 print(mylist)

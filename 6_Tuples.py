@@ -9,8 +9,8 @@ print(type(my_tuple))
 
 # slicing and indexing is possible to lists
 
-print(my_tuple.count(2))
-print(my_tuple.index(3))
+print(my_tuple.count(2))    # count of integer "2" in tuple.
+print(my_tuple.index(3))    # index position of integer "3" in tuple.
 
 my_list[0] = 45
 my_list.append(31)

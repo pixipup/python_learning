@@ -17,7 +17,7 @@ print(new_list)
 
 # Lists are mutable
 
-new_list[0] = '75'
+new_list[0] = '75' # Replace the first element with "75"
 
 print(new_list)
 
