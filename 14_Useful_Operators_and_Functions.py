@@ -42,7 +42,7 @@ print(list(zip(mylist1,mylist2,mylist3)))
 
 
 # in
-    # The in operator checks if something is present in a list or iterable
+    # The "in" operator checks if something is present in a list or iterable
 
 list_in = [1,2,3,4,5,6,7]
 print(3 in list_in)

@@ -8,7 +8,7 @@ print(5-1)
 
 #division
 
-print(8/4)
+print(8/4)                          # by default fractions will return values in decimal (float) until explicitly changed.
 
 #multiplication
 

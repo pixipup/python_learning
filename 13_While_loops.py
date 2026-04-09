@@ -11,21 +11,21 @@ else:
 # break, continue, pass
 
 # break: Breaks out of the current closest enclosing loop
-# continue: Goes to the top of the closest closest enclosing loop
+# continue: Goes to the top of the closest enclosing loop
 # pass: Does nothing at all (like a place holder)
 
 x = 0               #initiate a variable
 while x < 5:
     x += 1          #increment
     if x == 3:      #condition
-        # x += 1      #increment and continue
+        # x += 1    #increment and continue
         continue
     print(f'The current value of x is {x}')
     
 
 x = 0               #initiate a variable
-while x < 5:
+while x < 6:
     x += 1          #increment
     if x == 4:      #condition
-        break       #Break
+        break       #Break the while loop
     print(f'The current value of x is {x}')

@@ -45,7 +45,7 @@ for (a,b,c) in mylist:
 
 d = {"k1":1,"k2":2,"k3":3}
 
-for item in d: # It will return only values from the dictionaries
+for item in d: # It will return only key from the dictionaries
     print(item)
 
 for item in d.items():  # To get key and value pairs

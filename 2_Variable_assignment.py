@@ -7,14 +7,14 @@ number_of_dogs_owned = 2
 # Cannot use special characters
 # Should not be a reserved word (e.g. if, else, str, list, or)
 
-a = 5.0
-print(a)
+a = 5.0             # Variable assignment
+print(a)            # Output: 5.0 
 
-a = a + a
-print(a)
+a = a + a           # Variable reassignment / Mutated variable
+print(a)            # Output: 10.0 
 
-a = a + a
-print(a)
+a = a + a           # again variable reassignment / Mutated variable
+print(a)            # Output: 20.0 
 
 #use "type()" function to fetch the data type of the variable
 
